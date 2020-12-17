@@ -1,14 +1,14 @@
 package com.cod;
 
-public class Auxiliar {
+public class datos {
     String nombre;
     String ip = "127.0.0.2";
 
-    Auxiliar() {
+    datos() {
         nombre = "anonymous@danielcastelao.org";
     }
 
-    Auxiliar(String param1) {
+    datos(String param1) {
         this.nombre = param1;
     }
 
