@@ -1,19 +1,19 @@
 package com.cod;
 
 public class Auxiliar {
-    String e;
-    String h = "127.0.0.2";
+    String nombre;
+    String ip = "127.0.0.2";
 
     Auxiliar() {
-        e = "anonymous@danielcastelao.org";
+        nombre = "anonymous@danielcastelao.org";
     }
 
     Auxiliar(String param1) {
-        this.e = param1;
+        this.nombre = param1;
     }
 
     public boolean con() {
-        if (e != "anonymous@danielcastelao.org") {
+        if (nombre != "anonymous@danielcastelao.org") {
             return true;
         } else {
             return false;

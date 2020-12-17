@@ -2,13 +2,13 @@ package com.cod;
 
 public class Main {
     public static void main(String[] args) {
-        if (metodo1("anonymous@danielcastelao.org")) {
+        if (visualizar1("anonymous@danielcastelao.org")) {
             System.out.println("Listo");
         } else {
             System.out.println("Fallo");
         }
 
-        if (metodo2()) {
+        if (visualizar2()) {
             System.out.println("Listo");
         } else {
             System.out.println("Fallo");
@@ -16,15 +16,15 @@ public class Main {
         ;
     }
 
-    public static boolean metodo1(String u) {
-        Auxiliar obx1 = new Auxiliar(u);
-        System.out.println("Conectando a " + obx1.h + ", con el usuario " + u);
-        return obx1.con();
+    public static boolean visualizar1(String u) {
+        Auxiliar persona1 = new Auxiliar(u);
+        System.out.println("Conectando a " + persona1.ip + ", con el usuario " + u);
+        return persona1.con();
     }
 
-    public static boolean metodo2() {
-        Auxiliar obx2 = new Auxiliar();
-        System.out.println("Conectando a " + obx2.h + ", con el usuario " + obx2.e);
-        return obx2.con();
+    public static boolean visualizar2() {
+        Auxiliar persona2 = new Auxiliar();
+        System.out.println("Conectando a " + persona2.ip + ", con el usuario " + persona2.nombre);
+        return persona2.con();
     }
 }
