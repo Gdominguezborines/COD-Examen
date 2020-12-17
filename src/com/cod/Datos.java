@@ -30,6 +30,10 @@ public class Datos {
         return instance;
     }
 
+    /**
+     *
+     * @return metodo que retorna true o false segun
+     */
 
 
     public boolean con() {
