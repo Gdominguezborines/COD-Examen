@@ -1,5 +1,9 @@
 package com.cod;
 
+/**
+ * JavaDoc
+ *
+ */
 public class Main {
     public static void main(String[] args) {
         // creamos un objeto
